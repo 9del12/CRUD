@@ -1,7 +1,7 @@
 from tkinter import *
 
 def crearLabels(frame):
-        idLabel = Label(frame, text = 'Id:')
+        idLabel = Label(frame, text = 'Id(Automático):')
         idLabel.grid(row = 0, column = 0, sticky = 'e', padx = 10, pady = 10)
 
         nombreLabel = Label(frame, text = 'Nombre:')
